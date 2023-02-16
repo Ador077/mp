@@ -42,7 +42,7 @@ def xox(z):
 		sys.stdout.flush()
 		time.sleep(0.01)
 
-os.system('xdg-open https://facebook.com/ft.alvi.18')
+os.system('xdg-open https://facebook.com/𝘼𝘾𝙏𝙄𝙊𝙉-𝙁𝙄𝙍𝙀-107968471946247')
 def banner():
 	os.system("clear")
 	print("")
