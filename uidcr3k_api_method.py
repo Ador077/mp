@@ -54,12 +54,12 @@ def banner():
 	print("")
 	print("%s\033[1;32m╔══════════════════════════════════════════╗"%(Z))
 	print("%s║%s  Author   : %sACTION-FIRE                  %s║"%(Z,B,M,Z))
-	print("%s║%s  Facebook : github.com/ACTION-FIRE       %s║"%(Z,B,Z))
+	print("%s║%s  Facebook : facebook.com/ft.alvi.18      %s║"%(Z,B,Z))
 	print("%s║%s  Github   : github.com/ACTION-FIRE       %s║"%(Z,B,Z))
 	print("%s║%s  Version  : %sV.3.0                        %s║"%(Z,B,H,Z))
 	print("%s\033[1;32m╚══════════════════════════════════════════╝"%(Z))
 	print("")
-	xox('  %s》%s》%s》%sUIDCR3K%s《%s《%s《'%(M,H,B,H,B,H,M))
+	xox('            %s》%s》%s》%sUIDCR3K%s《%s《%s《'%(M,H,B,H,B,H,M))
 	print("")
 
 def linex():
