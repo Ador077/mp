@@ -59,7 +59,7 @@ def banner():
 	print("%s║%s  Version  : %sV.3.0                        %s║"%(Z,B,H,Z))
 	print("%s\033[1;32m╚══════════════════════════════════════════╝"%(Z))
 	print("")
-	xox('            %s》%s》%s》%sUIDCR3K%s《%s《%s《'%(M,H,B,H,B,H,M))
+	xox('  %s》%s》%s》%sUIDCR3K%s《%s《%s《'%(M,H,B,H,B,H,M))
 	print("")
 
 def linex():
